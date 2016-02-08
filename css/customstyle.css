@@ -51,23 +51,26 @@ p {
   color: #343434;
 }
 
-.title-lv2 {
+.title-lv2{
   font-size: 40px;
 }
-.title-lv3 {
+.title-lv3{
   font-size: 30px;
 }
-.title-lv4 {
+.title-lv4{
   font-size: 20px;
 }
 
-.title-green {
+.title-green{
   color: #3DB189;
 }
-.title-white {
+.title-white{
   color: #FFFFFF;
 }
 
+.btn-lg{
+  border-radius: none!important;
+}
 .btn-green{
   padding: 10px 20px;
   color: #FFFFFF;
@@ -82,7 +85,7 @@ p {
 
 
 /******** HOME WRAP ************************************************************************/
-#homewrap{
+.homewrap{
   width: 100%;
   height: 700px;
   position: relative;
@@ -110,7 +113,7 @@ p {
 }
 
 /******** PORTFOLIO WRAP ************************************************************************/
-#portfoliowrap {
+.portfoliowrap {
   padding: 70px 0;
 }
 
@@ -142,7 +145,7 @@ p {
 }
 
 /******** EXPRESSION WRAP ************************************************************************/
-#expressionwrap{
+.expressionwrap{
   width: 100%;
   padding: 40px 20px 40px 20px;
   position: relative;
@@ -153,7 +156,7 @@ p {
   background-size: cover;
 }
 
-#expressionwrap p {
+.expressionwrap p {
   margin: 0;
   color: #FFFFFF;
   font-family: "Ikaros Regular", sans-serif;
@@ -163,12 +166,12 @@ p {
 }
 
 /******** ABOUT WRAP ************************************************************************/
-#aboutwrap {
+.aboutwrap {
   padding: 70px 0;
   background: #222222;
 }
 
-#aboutwrap img{
+.aboutwrap img{
   width: 100%;
 }
 .progress {
@@ -178,23 +181,23 @@ p {
   background-color: #3DB189;
 }
 /******** CONTACT WRAP ************************************************************************/
-#contactwrap {
+.contactwrap {
   padding: 70px 0;
   background: #FFFFFF;
 }
 
-#contactwrap input,
-#contactwrap textarea {
+.contactwrap input,
+.contactwrap textarea {
   width: 50%;
   padding: 1em;
   color: #3DB189;
-  border: #3DB189 3px solid;
+  border:  3px solid #3DB189;
   border-radius: none;
   font-weight: bold;
   transition: all .3s;
 }
 
-#contactwrap label{
+.contactwrap label{
   padding-top: 10px;
   font-family: "Moon Light", sans-serif;
   font-size: 20px;
@@ -224,7 +227,7 @@ footer p {
 }
 
 @media only screen and (width: 300px) {
-  #contactwrap input {
+  .contactwrap input {
     width: 100%;
   }
 }
