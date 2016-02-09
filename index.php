@@ -48,10 +48,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#homewrap">Accueil</a></li>
-            <li><a href="#portfoliowrap">Portfolio</a></li>
-            <li><a href="#aboutwrap">À propos</a></li>
-            <li><a href="#contactwrap">Contact</a></li>
+            <li><a href="#homewrap" class="page-scroll">Accueil</a></li>
+            <li><a href="#portfoliowrap" class="page-scroll">Portfolio</a></li>
+            <li><a href="#aboutwrap" class="page-scroll">À propos</a></li>
+            <li><a href="#contactwrap" class="page-scroll">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -393,6 +393,21 @@
 
        });
      </script>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+     <script>
+     // Fonction du Scroll des pages
+     $(document).ready(function() {
+       $('.page-scroll').on('click', function() { // Au clic sur un élément
+         var page = $(this).attr('href'); // Page cible
+         var speed = 750; // Durée de l'animation (en ms)
+         $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+         return false;
+       });
+     });
+     </script>
+
+
 
     </body>
   </html>
