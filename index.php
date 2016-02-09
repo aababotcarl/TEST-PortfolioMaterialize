@@ -80,14 +80,14 @@
 
       <div class="text-center">
 
-          <section class="col-lg-12" id="portfolio">
+          <section class="col-md-12" id="portfolio">
                 <ul class="grid">
                   <!-- 1 item portoflio-->
                   <li>
                     <a href="#">
                       <img src="img/portfolio/1.png" alt="Portfolio item" />
                         <div class="text">
-                          <p>PORTFOLIO 1</p>
+                          <p class="title">PORTFOLIO 1</p>
                           <p class="description">Your text here...</p>
                       </div>
                     </a>
