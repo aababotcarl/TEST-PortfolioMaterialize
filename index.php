@@ -44,8 +44,8 @@
               <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                   <li><a href="#homewrap" class="page-scroll">Accueil</a></li>
-                  <li><a href="#portfoliowrap" class="page-scroll">Portfolio</a></li>
                   <li><a href="#aboutwrap" class="page-scroll">À propos</a></li>
+                  <li><a href="#portfoliowrap" class="page-scroll">Portfolio</a></li>
                   <li><a href="#contactwrap" class="page-scroll">Contact</a></li>
                 </ul>
               </div><!--/.nav-collapse -->
@@ -55,7 +55,7 @@
           <div class="inner cover">
             <h1 class="cover-heading">MiinowChan</h1>
             <p>
-              <a href="#" class="btn btn-lg btn-green">Learn more</a>
+              <a href="#" class="btn btn-lg btn-green">En voir +</a>
             </p>
           </div>
 
@@ -64,40 +64,46 @@
       </div>
     </div>
 
-    <!-- ================================== PORTFOLIO WRAP ================================== -->
-      <div class="portfoliowrap" id="portfoliowrap">
-        <div class="container" id="startchange">
 
-          <div class="col-md-12 sub-title">
-            <h2 class="title-green">Portfolio</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="#">+ d'info</a></p>
-          </div>
+            <!-- ==================================== ABOUT WRAP ==================================== -->
 
-          <div class="col-md-12 sub-nav">
-            <ul id="portfolio-filter">
-              <li class="current"><a href="#all" title="">All</a></li>
-              <li><a href="#logo" title="" rel="logo">Logo</a></li>
-              <li><a href="#documenet" title="" rel="document">Document</a></li>
-              <li><a href="#site" title="" rel="site">Site</a></li>
-              <li><a href="#illustration" title="" rel="illustration">Illustration</a></li>
-              <li><a href="#perso" title="" rel="perso">Perso</a></li>
-            </ul>
-          </div>
+            <div class="aboutwrap" id="aboutwrap">
+              <div class="container">
+                <div class="col-md-12 sub-title">
+                  <h2 class="title-green">A propos</h2>
+                  <p></p>
+                </div>
 
-          <div class="text-center">
+              <div class="col-xs-12 col-md-8">
+                <img class="img-responsive img-center" src="http://placehold.it/500x250" alt="">
+              </div>
 
-              <section class="col-md-12" id="portfolio">
+              <div class="col-xs-12 col-md-4">
+                <div class="col-sm-12">
+                    <h5>Photoshop</h5>
+                    <div class="progress"><div class="progress-bar" style="width: 90%;"></div></div>
+                    <h5>Illustrator</h5>
+                    <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div>
+                    <h5>Premiere</h5>
+                    <div class="progress"><div class="progress-bar" style="width: 60%;"></div></div>
+                    <h5>AfterEfect</h5>
+                    <div class="progress"><div class="progress-bar" style="width: 60%;"></div></div>
+                    <h5>InDesign</h5>
+                    <div class="progress"><div class="progress-bar" style="width: 50%;"></div></div>
+                  </ul>
+                </div>
+              </div>
 
-               </section>
+              <div class="col-sm-12">
+                <p>
+                  <h4 class="title-lv4 title-white" style="text-align:left;">Miinow CHan</h4>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
 
 
-         </div>
-
-      </div>
-
-         <!-- /.row -->
-        </div>
-      </div> <!-- /portfolio -->
+              </div>
+            </div>
 
       <!-- ==================================== EXPRESSION WRAP ==================================== -->
 
@@ -109,46 +115,40 @@
           </div>
         </div>
 
-        <!-- ==================================== ABOUT WRAP ==================================== -->
+        <!-- ================================== PORTFOLIO WRAP ================================== -->
+          <div class="portfoliowrap" id="portfoliowrap">
+            <div class="container" id="startchange">
 
-        <div class="aboutwrap" id="aboutwrap">
-          <div class="container">
-            <div class="col-md-12 sub-title">
-              <h2 class="title-green">A propos</h2>
-              <p></p>
+              <div class="col-md-12 sub-title">
+                <h2 class="title-green">Portfolio</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="#">+ d'info</a></p>
+              </div>
+
+              <div class="col-md-12 sub-nav">
+                <ul id="portfolio-filter">
+                  <li class="current"><a href="#all" title="">All</a></li>
+                  <li><a href="#logo" title="" rel="logo">Logo</a></li>
+                  <li><a href="#documenet" title="" rel="document">Document</a></li>
+                  <li><a href="#site" title="" rel="site">Site</a></li>
+                  <li><a href="#illustration" title="" rel="illustration">Illustration</a></li>
+                  <li><a href="#perso" title="" rel="perso">Perso</a></li>
+                </ul>
+              </div>
+
+              <div class="text-center">
+
+                  <section class="col-md-12" id="portfolio">
+
+                   </section>
+
+
+             </div>
+
+          </div>
+
+             <!-- /.row -->
             </div>
-
-          <div class="col-xs-12 col-md-8">
-            <img class="img-responsive img-center" src="http://placehold.it/500x250" alt="">
-          </div>
-
-          <div class="col-xs-12 col-md-4">
-            <div class="col-sm-12">
-                <h5>Photoshop</h5>
-                <div class="progress"><div class="progress-bar" style="width: 90%;"></div></div>
-                <h5>Illustrator</h5>
-                <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div>
-                <h5>Premiere</h5>
-                <div class="progress"><div class="progress-bar" style="width: 60%;"></div></div>
-                <h5>AfterEfect</h5>
-                <div class="progress"><div class="progress-bar" style="width: 60%;"></div></div>
-                <h5>InDesign</h5>
-                <div class="progress"><div class="progress-bar" style="width: 50%;"></div></div>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-sm-12">
-            <p>
-              <h4 class="title-lv4 title-white" style="text-align:left;">Miinow CHan</h4>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-
-
-          </div>
-        </div>
-
+          </div> <!-- /portfolio -->
         <!-- ==================================== EXPRESSION WRAP ==================================== -->
 
           <div class="expressionwrap" id="expressionwrap">
