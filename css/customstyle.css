@@ -24,6 +24,11 @@ body, html {
   padding: 0;
 }
 
+body {
+  text-align: center;
+  color: #343434;
+}
+
 h1,
 h2,
 h3,
@@ -34,11 +39,19 @@ h6 {
   text-align: center;
 }
 
+h2{
+  font-size: 40px;
+}
+h3{
+  font-size: 30px;
+}
+h4{
+  font-size: 20px;
+}
+
+
 a {
   color: #3DB189;
-  -webkit-transition: all .35s;
-  -moz-transition: all .35s;
-  transition: all .35s;
 }
 a:hover,
 a:focus{
@@ -51,16 +64,6 @@ p {
   color: #343434;
 }
 
-.title-lv2{
-  font-size: 40px;
-}
-.title-lv3{
-  font-size: 30px;
-}
-.title-lv4{
-  font-size: 20px;
-}
-
 .title-green{
   color: #3DB189;
 }
@@ -68,9 +71,6 @@ p {
   color: #FFFFFF;
 }
 
-.btn-lg{
-  border-radius: none!important;
-}
 .btn-green{
   padding: 10px 20px;
   color: #FFFFFF;
@@ -78,43 +78,55 @@ p {
   text-align: center;
 }
 
-.img-center {
-  text-align: center;
-  margin: auto;
+
+/******** NAVIGATION ************************************************************************/
+.navbar-default{
+    background:transparent;
+    border:none !important;
+}
+
+.navbar-brand{
+  color: #ffffff !important;
+  font-family: "Moon Bold", sans-serif;
+  font-size: 20px;
+}
+
+.navbar-brand span{
+  font-size: 25px;
 }
 
 
 /******** HOME WRAP ************************************************************************/
-.homewrap{
+.homewrap {
+  display: table;
   width: 100%;
-  height: 700px;
-  position: relative;
-  overflow: hidden;
+  height: 100%;
+  min-height: 100%;
+  text-align: center;
   background: url(../img/background_home.png);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.homewrap-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
 
-.header-custom {
-  transition: all 1s;
+
+.inner {
+  padding: 30px;
 }
-.header-custom a {
-  color: #404040;
-  transition: all 1s;
-}
-.navbar-brand{
-  color: #3DB189 !important;
-  font-family: "Moon Bold", sans-serif;
-  font-size: 20px;
-}
-.navbar-brand span{
-  font-size: 25px;
-}
+
+
 
 /******** PORTFOLIO WRAP ************************************************************************/
 .portfoliowrap {
-  padding: 70px 0;
+  padding: 100px 0;
 }
 
 #portfolio-filter {
@@ -167,8 +179,8 @@ p {
 
 /******** ABOUT WRAP ************************************************************************/
 .aboutwrap {
-  padding: 70px 0;
-  background: #222222;
+  padding: 100px 0;
+  background: #FFFFFF;
 }
 
 .aboutwrap img{
@@ -178,17 +190,18 @@ p {
   height: 15px;
 }
 .progress-bar {
-  background-color: #3DB189;
+  background-image: linear-gradient(to bottom,#379c79 0,#3DB189 100%);
+
 }
 /******** CONTACT WRAP ************************************************************************/
 .contactwrap {
-  padding: 70px 0;
+  padding: 100px 0;
   background: #FFFFFF;
 }
 
 .contactwrap input,
 .contactwrap textarea {
-  width: 50%;
+  width: 100%;
   padding: 1em;
   color: #3DB189;
   border:  3px solid #3DB189;
@@ -206,19 +219,19 @@ p {
 
 /****** FOOTER *****************************************************************************/
 footer{
-  padding: 70px 0;
+  padding: 100px 0;
   background: #222222;
 }
 
 footer p {
   color: #FFFFFF;
+  text-align: justify;
 }
 
 
 
-
 /******** MEDIA QUERIES  ************************************************************************/
-@media only screen and (max-width:550px) {
+@media(max-width:550px) {
   .sub-nav {
    width: 100%;
    margin: 15px 0 25px 0;
@@ -226,8 +239,17 @@ footer p {
    }
 }
 
-@media only screen and (width: 300px) {
-  .contactwrap input {
+@media (min-width: 768px) {
+  .homewrap-inner {
+    vertical-align: middle;
+  }
+  .cover-container {
     width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .cover-container {
+    width: 700px;
   }
 }
