@@ -1,0 +1,15 @@
+/** ========================= Navigation =========================  **/
+nav{
+  box-shadow: none;
+}
+
+nav a{
+  color: #343434!important;
+  text-transform: uppercase;
+}
+
+nav a:hover{
+  background-color: #343434!important;
+  color: #ffffff!important;
+  text-transform: uppercase;
+}
