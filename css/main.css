@@ -1,3 +1,20 @@
+@@font-face {
+  font-family: "Dense";
+  src: url(../font/Infinity.ttf)
+}
+
+/** ========================= Header =========================  **/
+header{
+  padding: 40px 0;
+}
+
+p{
+  color: #282828;
+  text-align: justify;
+}
+.container{
+  width: 60%;
+}
 /** ========================= Navigation =========================  **/
 nav{
   box-shadow: none;
@@ -12,4 +29,21 @@ nav a:hover{
   background-color: #343434!important;
   color: #ffffff!important;
   text-transform: uppercase;
+}
+
+/** ========================= Home - Aboutwrap =========================  **/
+.resumwrap{
+  font-family: "Dense", sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  word-spacing: 1px;
+}
+
+.resumwrap span{
+  color: #1b8575;
+}
+
+.resumwrap p{
+
 }

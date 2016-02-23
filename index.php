@@ -17,11 +17,10 @@
   <!-- =============================== Header ===============================  -->
 <header>
   <div class="container">
-    <img src="" alt="logo" />
-
     <!-- =============================== Navigation ===============================  -->
-    <nav class="grey lighten-5">
-      <div class="navbar">
+    <nav>
+      <div class="nav-wrapper grey lighten-5">
+        <a href="#!" class="brand-logo">    <img src="" alt="logo" /></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="#homewrap" class="page-scroll">Accueil</a></li>
@@ -37,10 +36,24 @@
         </ul>
       </div>
     </nav>
+
   </div>
 </header>
   <!-- =============================== Contents ===============================  -->
-
+<div class="resumwrap container">
+  <hr>
+  <div class="row">
+    <div class="col m8" style="display:block;vertical-align:middle;">
+      <p><span>"Bonjour, je suis Hélène Papin"<br></span>
+        Je suis Infographiste ainsi que Développeuse web Front-End !
+      </p>
+    </div>
+    <div class="col m4">
+      <img src="img/profil.jpeg" alt="photo de profil" />
+    </div>
+  </div>
+  <hr>
+</div>
 
   <!-- Jquery -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
