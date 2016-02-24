@@ -1,23 +1,72 @@
-@@font-face {
+@font-face {
   font-family: "Dense";
   src: url(../font/Infinity.ttf)
 }
 
-/** ========================= Header =========================  **/
-header{
-  padding: 40px 0;
+/** ========================= All =========================  **/
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 p{
-  color: #282828;
+  color: #535353;
   text-align: justify;
 }
-.container{
-  width: 60%;
+
+a{
+  color:#66BB6A;
 }
+
+hr{
+ border-top: #FFFFFF 1px solid;
+ border-left: #FFFFFF 1px solid;
+ border-right: #FFFFFF 1px solid;
+ border-bottom: #d0d0d0 1px solid;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Dense", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.container{
+  width:65%;
+}
+
+.homewrap,
+.aboutwrap,
+.portfoliowrap,
+.contactwrap{
+  overflow: hidden;
+  padding: 70px 0px;
+  border-top:  #d0d0d0 1px solid;
+}
+
+/** ========================= Header =========================  **/
+.homewrap{
+  display: table;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  text-align: center;
+  background: url(../img/profil.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /** ========================= Navigation =========================  **/
 nav{
   box-shadow: none;
+  border: none;
 }
 
 nav a{
@@ -26,24 +75,61 @@ nav a{
 }
 
 nav a:hover{
-  background-color: #343434!important;
+  background-color: #66BB6A!important;
   color: #ffffff!important;
   text-transform: uppercase;
 }
 
-/** ========================= Home - Aboutwrap =========================  **/
-.resumwrap{
-  font-family: "Dense", sans-serif;
-  font-size: 30px;
-  font-weight: lighter;
-  text-transform: uppercase;
-  word-spacing: 1px;
+
+
+/** ========================= Aboutwrap =========================  **/
+.profil-img{
+  height: 200px;
+  overflow: hidden;
 }
 
-.resumwrap span{
-  color: #1b8575;
+/** ========================= Porfolio wrap =========================  **/
+
+
+#portfolio-filter{
+  display: table;
 }
 
-.resumwrap p{
+#portfolio-filter li{
+  display: table-cell;
+  padding: 0px;
+  text-align: center;
+}
 
+#portfolio-filter a{
+  color: #FFFFFF;
+  background: #66BB6A;
+  padding: 10px 15px;
+}
+
+#portfolio-container{
+  display: table;
+}
+
+.box{
+  overflow: hidden;
+  height: 150px;
+}
+
+.box img{
+  margin: 20px;
+}
+
+/** ========================= Contact wrap =========================  **/
+
+
+/** ========================= Media query =========================  **/
+@media (max-width:550px) {
+  .container{
+    width: 80%;
+  }
+
+  h2{
+    font-size: 40px;
+  }
 }
