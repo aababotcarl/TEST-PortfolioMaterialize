@@ -17,10 +17,8 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper white">
-        <a href="#!" class="brand-logo">    <img src="" alt="logo" /></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down table-of-contents">
-          <li><a href="#homewrap" class="page-scroll">Accueil</a></li>
           <li><a href="#aboutwrap" class="page-scroll">À propos</a></li>
           <li><a href="#portfoliowrap" class="page-scroll">Portfolio</a></li>
           <li><a href="#contactwrap" class="page-scroll">Contact</a></li>
@@ -34,13 +32,6 @@
       </div>
     </nav>
   </div>
-
-  <!-- =============================== Header ==============================  -->
-  <header class="homewrap scrollpsy" id="#homewrap">
-    <p>
-      Hi
-    </p>
-  </header>
 
   <!-- =============================== About ===============================  -->
   <div class="aboutwrap container scrollspy" id="aboutwrap">
